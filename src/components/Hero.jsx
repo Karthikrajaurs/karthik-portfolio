@@ -31,7 +31,11 @@ export default function Hero() {
         <a href="#projects" className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
           View Projects
         </a>
-        <a href="https://raw.githubusercontent.com/Karthikrajaurs/karthik-portfolio/main/resume.pdf" download className="px-6 py-3 border border-blue-500 text-blue-500 rounded-lg hover:bg-blue-500 hover:text-white transition">
+        <a
+          href="/karthik_resumee.pdf"
+          download="Karthik_Resume.pdf"
+          className="px-6 py-3 border border-blue-500 text-blue-500 rounded-lg hover:bg-blue-500 hover:text-white transition"
+        >
           Download Resume
         </a>
       </div>
