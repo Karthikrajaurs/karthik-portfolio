@@ -8,7 +8,7 @@ export default function Hero() {
 
       {/* ✅ PROFILE IMAGE */}
       <motion.img
-        src="/IMG_8117.jpg"
+        src={process.env.PUBLIC_URL + "/IMG_8117.jpg"}
         alt="Karthik"
         className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-blue-500 shadow-lg mb-6"
         initial={{ opacity: 0, scale: 0.5 }}
@@ -47,7 +47,7 @@ export default function Hero() {
         </a>
 
         <a
-          href="/karthik_resumee.pdf"
+          href={process.env.PUBLIC_URL + "/karthik_resumee.pdf"}
           download="Karthik_Resume.pdf"
           className="px-6 py-3 border border-blue-500 text-blue-500 rounded-lg hover:bg-blue-500 hover:text-white transition"
         >
